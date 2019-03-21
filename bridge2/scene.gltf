@@ -1,0 +1,234 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 22840,
+      "max": [
+        1.7993291616439819,
+        7.1756086349487305,
+        6.4826955795288086
+      ],
+      "min": [
+        -3.4294235706329346,
+        -1.3494681119918823,
+        -49.238399505615234
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 274080,
+      "componentType": 5126,
+      "count": 22840,
+      "max": [
+        0.99999797344207764,
+        0.99995261430740356,
+        0.99998366832733154
+      ],
+      "min": [
+        -0.99997603893280029,
+        -0.99996095895767212,
+        -0.99998360872268677
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 22840,
+      "max": [
+        1,
+        0.00015466987679246813,
+        1,
+        1
+      ],
+      "min": [
+        -0.99999988079071045,
+        -0.00017153711814898998,
+        -1,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 22842,
+      "max": [
+        22839
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "filipeb2011 (https://sketchfab.com/filipeb2011)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/ca35b5ecb93140a4b02a46f2e320093d",
+      "title": "Bridge"
+    },
+    "generator": "Sketchfab-3.18.5",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 91368,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 548160,
+      "byteOffset": 91368,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 365440,
+      "byteOffset": 639528,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1004968,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Wood__Floor",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.219608,
+          0.14902000000000001,
+          0.086274500000000004,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.93021349659999997
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh1_Wood__Floor_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "48bdc2d6f527414ba57c1124b757caf0.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "Model"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "h_ngebr_cke1"
+    },
+    {
+      "children": [
+        7
+      ],
+      "name": "DrawCall_0_1"
+    },
+    {
+      "children": [
+        8
+      ],
+      "name": "Mesh1"
+    },
+    {
+      "mesh": 0,
+      "name": "Mesh1_Wood__Floor_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
